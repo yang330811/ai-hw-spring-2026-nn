@@ -1,0 +1,101 @@
+[
+  {
+    "model": "mlp",
+    "epochs": 5,
+    "device": "cpu",
+    "final_test_accuracy_pct": 97.65,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.3582881860415141,
+        "test_accuracy_pct": 94.58
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.15598304533163707,
+        "test_accuracy_pct": 96.36
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.1071235081076622,
+        "test_accuracy_pct": 97.02
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.08044140650033951,
+        "test_accuracy_pct": 97.25
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.0633460575123628,
+        "test_accuracy_pct": 97.65
+      }
+    ]
+  },
+  {
+    "model": "cnn",
+    "epochs": 5,
+    "device": "cpu",
+    "final_test_accuracy_pct": 98.9,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.25139459606607756,
+        "test_accuracy_pct": 97.81
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.0621979593783617,
+        "test_accuracy_pct": 98.2
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.04271976223140955,
+        "test_accuracy_pct": 98.78
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.033573025546967984,
+        "test_accuracy_pct": 98.96
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.026549507817129295,
+        "test_accuracy_pct": 98.9
+      }
+    ]
+  },
+  {
+    "model": "transformer",
+    "epochs": 5,
+    "device": "cpu",
+    "final_test_accuracy_pct": 96.89,
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.8625873378276825,
+        "test_accuracy_pct": 91.24
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.30089429121812183,
+        "test_accuracy_pct": 93.94
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.21258611916700998,
+        "test_accuracy_pct": 95.57
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.17724150861899057,
+        "test_accuracy_pct": 96.3
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.15645865401029588,
+        "test_accuracy_pct": 96.89
+      }
+    ]
+  }
+]
