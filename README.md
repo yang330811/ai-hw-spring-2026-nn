@@ -7,3 +7,6 @@ Model is trained on training dataset and tested on test dataset.
 pip install -r requirements.txt
 python train.py
 ```
+
+## Takeaway
+For this relative small MNIST image datset, CNN captures spatial patterns efficiently, so it performs well on this classification task. While MLP and Transformer help us understand trade-offs between simplicity, spatial modeling, and attention.
