@@ -22,7 +22,7 @@ python train.py
 
 **CNN** — Two conv blocks (Conv → ReLU → MaxPool): `1×28×28 → 32×14×14 → 64×7×7`, then flatten → Linear(128) → ReLU → Linear(10). Learns local image patterns.
 
-**Transformer** — Split image into **16 patches** (7×7 each), project with a linear layer, add **[CLS] token** and **positional embeddings**, pass through **2 encoder layers** (4 attention heads), classify from CLS output.
+**Transformer** — Split image into **16 patches** (7×7 each), project with a linear layer, add [CLS] token and positional embeddings, pass through **2 encoder layers** (4 attention heads), classify from CLS output.
 
 ## Training
 
